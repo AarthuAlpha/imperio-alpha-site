@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Império Alpha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #000;
+            color: #FFD700;
+        }
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            color: #FFD700;
+        }
+        .banner {
+            padding: 120px 20px 40px;
+            text-align: center;
+        }
+        .banner h2 {
+            font-size: 28px;
+            color: #FFD700;
+        }
+        .catalogo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .produto {
+            background-color: #1a1a1a;
+            border-radius: 12px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .produto:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 15px #FFD700;
+        }
+        .produto img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+        }
+        .produto h3 {
+            margin: 15px 0 5px;
+        }
+        .produto p {
+            margin: 0 0 10px;
+        }
+        .produto a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            color: #000;
+            background-color: #FFD700;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Império Alpha</h1>
+</header>
+
+<div class="banner">
+    <h2>Elegância que acompanha o seu corre.</h2>
+</div>
+
+<div class="catalogo">
+    <div class="produto">
+        <img src="D:\Império Alpha\imagens\mochila_feminina.jpg" alt="Mochila Feminina">
+        <h3>Mochila Feminina</h3>
+        <p>ID: 001 | R$ 160,00</p>
+        <a href="https://wa.me/5561999650392?text=Quero%20a%20Mochila%20Feminina%20ID%20001!" target="_blank">Pedir no WhatsApp</a>
+    </div>
+    <div class="produto">
+        <img src="D:\Império Alpha\imagens\mochila_masculina.jpg" alt="Mochila Masculina">
+        <h3>Mochila Masculina</h3>
+        <p>ID: 002 | R$ 160,00</p>
+        <a href="https://wa.me/5561999650392?text=Quero%20a%20Mochila%20Masculina%20ID%20002!" target="_blank">Pedir no WhatsApp</a>
+    </div>
+    <div class="produto">
+        <img src="D:\Império Alpha\imagens\bolsa_feminina.jpg" alt="Bolsa Feminina">
+        <h3>Bolsa Feminina</h3>
+        <p>ID: 003 | R$ 200,00</p>
+        <a href="https://wa.me/5561999650392?text=Quero%20a%20Bolsa%20Feminina%20ID%20003!" target="_blank">Pedir no WhatsApp</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Império Alpha | Luxo acessível é aqui</p>
+</footer>
+
+</body>
+</html>
